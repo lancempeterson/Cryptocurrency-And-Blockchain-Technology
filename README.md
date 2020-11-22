@@ -1,10 +1,6 @@
 **CRYPTOCURRENCY AND BLOCKCHAIN TECHNOLOGY**
 
-**Lance Peterson**
-
-**Department of Software Engineering**
-
-**University of Wisconsin – Platteville**
+**Lance M. Peterson**
 
 [**lancepeterson50@gmail.com**](mailto:lancepeterson50@gmail.com)
 
@@ -42,7 +38,7 @@ Bitcoin was the first ever cryptocurrency. It was introduced in a white paper [1
 
 Blockchain can be thought of a distributed database. One way to think of this is to imagine an online ledger that is duplicated thousands of times across a distributed network of computers. Since the information is not stored centrally, it is impossible to corrupt or steal vital data from one source. Before a hacker can perpetrate any form of attack on a block, such criminal needs to hack every ledger in the network (millions of information) at the same time and this is simply impossible. [7]
 
-![](RackMultipart20201122-4-1vqttvw_html_c2e7831492894030.png)
+![Traditional vs Blockchain approach](img/BlockchainApproach.png?raw=true "Traditional vs Blockchain approach")
 
 Figure 2: Traditional vs Blockchain approach [7]
 
@@ -50,7 +46,7 @@ Figure 2: Traditional vs Blockchain approach [7]
 
 Cryptography plays a vital role in the blockchain. Blockchain uses cryptographic hashing to guarantee that no transactions in the history can be tampered with. Hashing itself is easy enough to understand. [10] It means taking an input string of any length, running it through a hashing algorithm such as SHA-256, and getting output of a fixed length string. Small changes in the input will result in large changes to the output. This is known as the &quot;avalanche effect&quot; and is a necessary trait of a good cryptographic function. If the hash function did not satisfy the avalanche effect to a significant degree, then someone could make predictions about the input if given the output. This increases the chance of someone cracking the algorithm used in the hash function. Figure 3 shows an example of a hash function with a good avalanche effect. It is shown that by changing a single bit in the input results in totally different output.
 
-![](RackMultipart20201122-4-1vqttvw_html_2cbc10239e54267.png)
+![Hashing example with avalanche effect](img/HashingAvalancheEffect.png?raw=true "Hashing example with avalanche effect")
 
 Figure 3: Hashing example with avalanche effect
 
@@ -60,13 +56,13 @@ For cryptocurrencies like Bitcoin, the sequence of transactions for the current 
 
 Digital signature encryption is also essential for cryptocurrency and the blockchain to work. Users of the cryptocurrency use a key pair, which are a public key and a private key. The keys are related to each other mathematically using some known algorithm. Whatever is encrypted with a public key can only be decrypted by its corresponding private key.
 
-![](RackMultipart20201122-4-1vqttvw_html_773b6e294f984e13.jpg)
+![Public Key and Private Key](img/PublicKeyPrivateKey.png?raw=true "Public Key and Private Key")
 
 Figure 4: Public Key and Private Key [9]
 
 With bitcoin, a user has a Bitcoin address, which is a hash of the public key portion of the user&#39;s key pair. This can be shared with other users to receive cryptocurrency. The private key is used to act as a digital signature to sign off on transactions much like signature would work on a contract. Every transaction on the blockchain is digitally signed by the sender using their private key. In this way, only the owner of the account can send money out of their account. The signature of the previous token owner is used to verify that the current owner has ownership of that token. This is can be shown in Figure 5.
 
-![](RackMultipart20201122-4-1vqttvw_html_e9ed0c3560551990.png)
+![Transaction digital signatures](img/DigitalSignatures.png?raw=true "Transaction digital signatures")
 
 Figure 5: Transaction digital signatures [1]
 
