@@ -20,7 +20,7 @@ Today money is being exchanged more and more over the internet. This is done wit
 
 Since digital currencies are essentially digital files there exists a potential weakness in its use. Digital files are much easier to copy than physical currency so it could be possible for someone to buy two or more items using the same digital token. Suppose Alice has 1 digital token and decides to send it to Bob. At the same time Alice sends 1 digital token to Charlie. Alice only has 1 token in her account so how can we get confirmation to either Bob or Charlie the token they receive hasn&#39;t already been used? This is referred to as the double-spend problem. Double spending leads to inflation, and a loss of trust in the currency. There are two main ways to prevent double-spending. The first is a centralized prevention technique. This can be implemented by using a central trusted third party that can verify whether a token has been spent. This is when digital currency follows a centralized system shown in Figure 1.
 
-![](RackMultipart20201122-4-1vqttvw_html_afc14c5eff422ec1.png)
+![Centralized System](img/CentralizedSystem.png?raw=true "Centralized System")
 
 Figure 1: Centralized System
 
